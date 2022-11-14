@@ -12,7 +12,7 @@ html {
 .content {
     padding: 16px;
     background-image: url(https://scontent.fhan2-1.fna.fbcdn.net/v/t1.6435-9/67748192_2474933762527655_3105786002443075584_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=dOvAJHauZIcAX_vrNZ0&_nc_oc=AQkde9wYwhyO6HmRoxZ_akDZK1fsqSmsaM5WwoHn9Mf0niXtKKNlcsR8i_ef6TbmnznrHy0Do-tIh6kriqRV2EHx&_nc_ht=scontent.fhan2-1.fna&oh=00_AfDWdCfubnauUzepCsI4MHUf8sOLH62Rp2BiVyvvTrR04w&oe=639938DF);
-    background-size: cover;
+    background-size: contain;
 }
 
 .heading {
