@@ -1,0 +1,52 @@
+/* Hãy mở tab TRÌNH DUYỆT để xem thay đổi trực quan */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.content {
+    padding: 16px;
+    background-image: url(https://scontent.fhan2-1.fna.fbcdn.net/v/t1.6435-9/67748192_2474933762527655_3105786002443075584_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=dOvAJHauZIcAX_vrNZ0&_nc_oc=AQkde9wYwhyO6HmRoxZ_akDZK1fsqSmsaM5WwoHn9Mf0niXtKKNlcsR8i_ef6TbmnznrHy0Do-tIh6kriqRV2EHx&_nc_ht=scontent.fhan2-1.fna&oh=00_AfDWdCfubnauUzepCsI4MHUf8sOLH62Rp2BiVyvvTrR04w&oe=639938DF);
+    background-size: cover;
+}
+
+.heading {
+    font-size: 2.8rem;
+}
+
+.posts-list{
+    margin-top: 32px;
+}
+.post-item {
+    padding: 12px 14px;
+    border: 2px solid #ccc;
+
+    /* Bo tròn góc 16px */
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+.post-item:hover{
+    background-color: pink
+}
+.post-item .title a {
+    color: rgba(255, 243, 11, 0.932);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.post-item .desc {
+    font-size: 1.6rem;
+    color: rgb(244, 134, 8);
+    margin-top: 10px;
+}
+
+.post-item .min-read {
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 12px;
+}
